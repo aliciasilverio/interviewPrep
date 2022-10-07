@@ -56,6 +56,7 @@ firstRecurringCharacter([2, 5, 1, 2, 3, 5, 1, 2, 4])
 
 
 // Linked List
+// Consists of nodes where each node contains a data field and a reference(link) to the next node in the list.
 
 const basket = ['apples', 'grapes', 'pears'];
 
@@ -65,3 +66,8 @@ apples
 8947 --> grapes
     8742 --> pears
         372 --> null
+
+// Pointer
+// A reference to another place in memory or another object or another node
+ const obj1 = { a: true};
+ const obj2 = obj1;
